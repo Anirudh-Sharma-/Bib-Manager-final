@@ -246,7 +246,8 @@ function change_user_email_in_shared_library($user_email, $new_email){
 	$query1 = "SELECT * FROM shared_library WHERE shared_email_user_shared = '{$user_email}'";
     $result1 = mysqli_query($connection, $query1);
 	confirm_query($result1);
-	global $count = array();
+	global $count;
+	$count = array();
 	$count = 0;
 		while($row = mysqli_fetch_assoc($result1)){
 			$count[] = $row["shared_lib_id"];

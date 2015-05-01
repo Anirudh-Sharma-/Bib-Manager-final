@@ -55,7 +55,7 @@ function validate_username_exist($username){
 		$result = mysqli_query($connection, $query);
 		confirm_query($result);
 		if(!(mysqli_num_rows($result) > 0)){
-			$errors[$field] = "username already exists."
+			$errors[$field] = "username already exists.";
 		}
 }
 
@@ -66,7 +66,7 @@ function validate_email_exist($email){
 		$result = mysqli_query($connection, $query);
 		confirm_query($result);
 		if(!(mysqli_num_rows($result) > 0)){
-			$errors[$field] = "email id already exists."
+			$errors[$field] = "email id already exists.";
 		}
 }
 
