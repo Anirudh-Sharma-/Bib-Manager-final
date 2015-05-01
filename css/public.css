@@ -1,0 +1,249 @@
+
+html, body {
+  height:100%;
+  margin:0;
+  padding:0;
+}
+#wrapper {
+  min-height:100%;
+  position:relative;
+}
+
+#header {
+    background-color:#101010;
+	width:100%;
+    color:white;
+    
+    padding:5px 0px;
+}
+
+#user_info{
+	text-align:right;
+	margin-top: -75px;
+	margin-right: 10px;
+}
+#user_info a{
+	color: #fff;
+}
+#logout {
+	text-align: right;
+	padding: 5px 0px;
+	margin-right: 10px;
+}
+#logout  a{
+	background: red;
+	color: #fff;
+	text-decoration: none;
+	
+  font: bold 11px Arial;
+  text-decoration: none;
+
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+
+}
+
+#header h1{
+text-align:left;
+color:white;
+}
+
+#nav {
+    line-height:30px;
+    background-color:#57B962;
+    min-height:400px;
+    width:20%;
+    float:left;
+    padding:5px 0px;
+   z-index:1;	
+	
+}
+#section {
+    width:79%;
+    float:left; 
+}
+
+#ref_listing{
+	width:100%;
+	float:left;
+	height:800px;
+	padding:2px;
+	border: solid 1px #57B962;
+	height: 550px;
+	overflow: auto;
+	background: #C0C0C0;
+}
+
+#seperation{
+	width:100%;
+	float:left;
+	height:15px;
+	padding:2px;
+	border: solid #0083D1 1px;
+	background: #101010 ;
+}
+
+#reference_display{
+	width:100%;
+	float:left;
+	
+	padding:2px;
+	    border-style: solid;
+    border-width: 1px;
+	height: 658px;
+	overflow: auto;
+	background: #C0C0C0;
+}
+
+#footer {
+	bottom:0;
+	
+  width:100%;
+    background-color:#101010;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px 0px;
+}
+
+/* css for message box used with sessions*/
+div.message {
+ border: 2px solid #8D0D19;
+ color: #8D0D19; font-weight: bold;
+ margin: 1em 0; padding: 1em;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+}
+
+
+#trash_button {
+ float: right;
+}
+
+#account_info {
+background: #C0C0C0;
+height: 540px;
+width: 100%;
+}
+
+#edit_reference {
+background: #C0C0C0;
+height: 530px;
+width: 100%;
+}
+
+#view_reference {
+background: #C0C0C0;
+height: 530px;
+width: 100%;
+}
+
+#delete_button {
+ float: right;
+}
+
+#search_results {
+background: #C0C0C0;
+height: 100%;
+width: 100%;
+}
+#search_found {
+background: #C0C0C0;
+height: 100%;
+width: 100%;
+}
+
+table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after { 
+    content: " \25B4\25BE" 
+}
+
+body.register{
+	background:#339CDA;
+}
+#register-form{
+	position:fixed;
+    top: 50%;
+    left: 50%;
+    width:30em;
+    height:18em;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+    border: 1px solid #ccc;
+    background-color: #57B962;
+}
+#register-form h1{
+	text-align:center;
+	background: black;
+	color: white;
+	padding: 5px 0px;
+	margin-top: 0px;
+}
+#register-form table{
+	width:100%;
+	border:0px;
+}
+#register-form table td{
+	border:0px;
+}
+#register-form table td.label{
+	text-align: right;
+	margin-right: 5px;
+}
+#register-form table td.login{
+	text-align: center
+}
+#register-form table td.login a{
+	background: blue;
+	color: #fff;
+	text-decoration: none;
+	
+  font: bold 11px Arial;
+  text-decoration: none;
+
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+
+table.sortable tr th{
+	background: black;
+	color: white;
+}
+table.sortable td.cbox, table.sortable td.year{
+	text-align: center;
+}
+table.sortable td a{
+	color:white;
+}
+table.ref td{
+	border:0px;
+	
+}
+table.ref td.label{
+	background:#A82A70;
+	border-bottom: 1px solid black;
+}
+
+
+#last_footer {
+	bottom:0;
+	position: absolute;
+  width:100%;
+    background-color:#101010;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px 0px;
+}
