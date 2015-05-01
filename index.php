@@ -18,7 +18,7 @@ if(isset($_POST['submit'])){
 	validate_max_length($fields_with_max_lenghts);
 	
 	validate_username_exist($username);
-	validate_email_exist($email);
+	//validate_email_exist($email);
 	
 	if(!empty($errors)){
 		$_SESSION["errors"] = $errors;
